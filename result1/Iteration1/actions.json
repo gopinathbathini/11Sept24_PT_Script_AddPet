@@ -1,0 +1,87 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: pets.shaft.com",
+                "infFile": "t1.inf",
+                "time": 1726043816000
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: Home",
+                "infFile": "t2.inf",
+                "time": 1726043816177
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Find owners",
+                "infFile": "t3.inf",
+                "time": 1726043816393
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: owners",
+                "infFile": "t4.inf",
+                "time": 1726043816684
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Add New Pet",
+                "infFile": "t5.inf",
+                "time": 1726043817011
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: new",
+                "infFile": "t6.inf",
+                "time": 1726043817230
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Pets_Launch",
+                "rawStartTime": 1726043814722,
+                "rawEndTime": 1726043816016,
+                "thinkTime": 0.0,
+                "wastedTime": 0.11188888549804688
+            },
+            {
+                "transactionName": "Pets_Launch",
+                "rawStartTime": 1726043816047,
+                "rawEndTime": 1726043816187,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007098197937011719
+            },
+            {
+                "transactionName": "Pets_FindOwner",
+                "rawStartTime": 1726043816219,
+                "rawEndTime": 1726043816405,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008396625518798828
+            },
+            {
+                "transactionName": "Pets_SearchWithLastName",
+                "rawStartTime": 1726043816420,
+                "rawEndTime": 1726043816699,
+                "thinkTime": 0.0,
+                "wastedTime": 0.011392354965209961
+            },
+            {
+                "transactionName": "Pets_AddNewPet",
+                "rawStartTime": 1726043816746,
+                "rawEndTime": 1726043817028,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0039081573486328129
+            },
+            {
+                "transactionName": "Pets_GivePetDetails",
+                "rawStartTime": 1726043817044,
+                "rawEndTime": 1726043817232,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005527019500732422
+            }
+        ]
+    }
+]

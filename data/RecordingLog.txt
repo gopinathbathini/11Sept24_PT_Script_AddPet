@@ -1,0 +1,462 @@
+[API Trapper      ( bf8:24c8)] Recording in 32-bit mode: C:\Program Files (x86)\OpenText\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (3ecc:38b4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3ecc:38b4)] Load Network Traffic Analyzers:
+[Network Analyzer (3ecc:38b4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3ecc:38b4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (3ecc:38b4)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3ecc:38b4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (3ecc:38b4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (3ecc:38b4)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3ecc:38b4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (3ecc:38b4)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (3ecc:38b4)] Started proxy on port 8889 listening IP 192.168.68.41, 127.0.0.1, in synchronous mode
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16410
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16412
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16413
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16414
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16415
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16416
+[Proxy Recording  (3ecc:54e8)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:4ca8)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=128 ...
+[Proxy Recording  (3ecc:4ca8)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=128 ...
+[Proxy Recording  (3ecc:54e8)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16421
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16422
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16423
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16424
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16425
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16426
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16427
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16428
+[Proxy Recording  (3ecc:4ca8)] Received response of 556 header and 0 body bytes from https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=128
+[Web Request      (3ecc:4ca8)] "GET https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=128"   
+[Network Analyzer (3ecc:4ca8)]   (Sid:  1) Client -> Server @ : 508 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3ecc:4ca8)]   (Sid:  1) Server -> Client : 583 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3ecc:4ca8)] Sent 0 bytes to client @ 192.168.68.41:16412
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16429
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16430
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16431
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16432
+[Proxy Recording  (3ecc:54e8)] Received response of 399 header and 11 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:54e8)] Sent 11 bytes to client @ 192.168.68.41:16410
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16433
+[Proxy Recording.Error (3ecc:4398)] Exception is caught while trying to connect to https://pets.shaft.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3ecc:4398)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3ecc:3c80)] Exception is caught while trying to connect to https://accounts.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3ecc:3c80)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3ecc: c58)] Exception is caught while trying to connect to https://data.iana.org:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3ecc: c58)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3ecc:13f4)] Exception is caught while trying to connect to https://clients2.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3ecc:13f4)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3ecc:3388)] Trying to connect to https://onedriveclucproddm20050.blob.core.windows.net:443/2024-09-11/9017008775745105211-91c0d23d-22b3-e650-ad47-0eec20f15409-2024-09-11-07-48-56-9430?sv=2014-02-14&sr=b&sig=ocFCh%2BwaYWKy0Oo6rgXDedJheeLJfytlSfMlVa1hm%2B0%3D&st=2024-09-10T21%3A48%3A56Z&se=2024-09-11T08%3A48%3A56Z&sp=w ...
+[Proxy Recording.Error (3ecc:57c0)] Exception is caught while trying to connect to https://update.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3ecc:57c0)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3ecc:3388)] Trying to connect to https://onedriveclucproddm20050.blob.core.windows.net:443/2024-09-11/9017008775745105211-91c0d23d-22b3-e650-ad47-0eec20f15409-2024-09-11-07-48-56-9430?sv=2014-02-14&sr=b&sig=ocFCh%2BwaYWKy0Oo6rgXDedJheeLJfytlSfMlVa1hm%2B0%3D&st=2024-09-10T21%3A48%3A56Z&se=2024-09-11T08%3A48%3A56Z&sp=w ...
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16438
+[Proxy Recording  (3ecc:5990)] Trying to connect to http://pets.shaft.com/ ...
+[Proxy Recording  (3ecc:5990)] Trying to connect to http://pets.shaft.com/ ...
+[Proxy Recording  (3ecc:5990)] Received response of 131 header and 2973 body bytes from http://pets.shaft.com/
+[Web Request      (3ecc:5990)] "GET http://pets.shaft.com/"   
+[Network Analyzer (3ecc:5990)]   (Sid:  2) Client -> Server @ : 476 bytes (Service=HTTP)
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16440
+[Network Analyzer (3ecc:5990)]   (Sid:  2) Server -> Client : 118 bytes  (Service=HTTP)
+[Network Analyzer (3ecc:5990)]   (Sid:  2) Server -> Client : 2973 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc:5990)] Sent 2973 bytes to client @ 192.168.68.41:16438
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16441
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16442
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16443
+[Proxy Recording  (3ecc:5990)] Trying to connect to http://pets.shaft.com/webjars/font-awesome/4.7.0/css/font-awesome.min.css ...
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16444
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16445
+[Proxy Recording  (3ecc:5990)] Trying to connect to http://pets.shaft.com/webjars/font-awesome/4.7.0/css/font-awesome.min.css ...
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16446
+[Proxy Recording  (3ecc:5990)] Received response of 259 header and 31000 body bytes from http://pets.shaft.com/webjars/font-awesome/4.7.0/css/font-awesome.min.css
+[Web Request      (3ecc:5990)] "GET http://pets.shaft.com/webjars/font-awesome/4.7.0/css/font-awesome.min.css"   
+[Network Analyzer (3ecc:5990)]   (Sid:  3) Client -> Server @ : 363 bytes (Service=HTTP)
+[Network Analyzer (3ecc:5990)]   (Sid:  3) Server -> Client : 274 bytes  (Service=HTTP)
+[Network Analyzer (3ecc:5990)]   (Sid:  3) Server -> Client : 31000 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc:5990)] Sent 31000 bytes to client @ 192.168.68.41:16442
+[Proxy Recording  (3ecc:5990)] Trying to connect to http://pets.shaft.com/resources/css/petclinic.css ...
+[Proxy Recording  (3ecc:5990)] Trying to connect to http://pets.shaft.com/resources/css/petclinic.css ...
+[Proxy Recording.Error (3ecc:4ca8)] Exception is caught while trying to connect to https://update.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3ecc:54e8)] Exception is caught while trying to connect to https://pets.shaft.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3ecc:4ca8)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3ecc:54e8)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3ecc:54e8)] Trying to connect to http://pets.shaft.com/webjars/bootstrap/5.1.3/dist/js/bootstrap.bundle.min.js ...
+[Proxy Recording.Error (3ecc:473c)] Exception is caught while trying to connect to https://data.iana.org:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording  (3ecc:4ca8)] Trying to connect to http://pets.shaft.com/resources/images/pets.png ...
+[Proxy Recording.Error (3ecc:1d10)] Exception is caught while trying to connect to https://accounts.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3ecc: a00)] Exception is caught while trying to connect to https://clients2.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3ecc:473c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3ecc:54e8)] Trying to connect to http://pets.shaft.com/webjars/bootstrap/5.1.3/dist/js/bootstrap.bundle.min.js ...
+[Proxy Recording  (3ecc:4ca8)] Trying to connect to http://pets.shaft.com/resources/images/pets.png ...
+[Proxy Recording.Error (3ecc:1d10)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (3ecc: a00)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (3ecc:473c)] Trying to connect to http://pets.shaft.com/resources/images/spring-pivotal-logo.png ...
+[Proxy Recording  (3ecc:473c)] Trying to connect to http://pets.shaft.com/resources/images/spring-pivotal-logo.png ...
+[Proxy Recording  (3ecc:473c)] Received response of 259 header and 2818 body bytes from http://pets.shaft.com/resources/images/spring-pivotal-logo.png
+[Proxy Recording  (3ecc:5990)] Received response of 260 header and 215869 body bytes from http://pets.shaft.com/resources/css/petclinic.css
+[Proxy Recording  (3ecc:54e8)] Received response of 273 header and 78129 body bytes from http://pets.shaft.com/webjars/bootstrap/5.1.3/dist/js/bootstrap.bundle.min.js
+[Web Request      (3ecc:473c)] "GET http://pets.shaft.com/resources/images/spring-pivotal-logo.png"   
+[Network Analyzer (3ecc:473c)]   (Sid:  4) Client -> Server @ : 398 bytes (Service=HTTP)
+[Proxy Recording  (3ecc:4ca8)] Received response of 260 header and 67721 body bytes from http://pets.shaft.com/resources/images/pets.png
+[Network Analyzer (3ecc:473c)]   (Sid:  4) Server -> Client : 274 bytes  (Service=HTTP)
+[Network Analyzer (3ecc:473c)]   (Sid:  4) Server -> Client : 2818 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc:473c)] Sent 2818 bytes to client @ 192.168.68.41:16446
+[Web Request      (3ecc:5990)] "GET http://pets.shaft.com/resources/css/petclinic.css"   
+[Network Analyzer (3ecc:5990)]   (Sid:  5) Client -> Server @ : 339 bytes (Service=HTTP)
+[Network Analyzer (3ecc:5990)]   (Sid:  5) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer (3ecc:5990)]   (Sid:  5) Server -> Client : 215869 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc:5990)] Sent 215869 bytes to client @ 192.168.68.41:16443
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16452
+[Proxy Recording  (3ecc:473c)] Trying to connect to http://pets.shaft.com/resources/images/spring-logo-dataflow.png ...
+[Proxy Recording  (3ecc:473c)] Trying to connect to http://pets.shaft.com/resources/images/spring-logo-dataflow.png ...
+[Proxy Recording  (3ecc:51c0)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:wVkHFOh9XNUp5UnWj5Zcr3O6BX6VAiAVVq8JJRW2p_8&cup2hreq=7fd95d3dd955d0b567ed65d9f1dd98e95b41a3e36b657b1461a363c99a439027 ...
+[Proxy Recording  (3ecc:3c80)] Trying to connect to https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.121&lang=en-US&acceptformat=crx3,puff&x=id%3Dglmfdkfmoamfkgkncklicdngnfabhaim%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1&x=id%3Dhemlmgggokggmncimchkllhcjcaimcle%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF&x=id%3Djbldcomffojmkkjbblhcebeicbncmjpf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1%2526dr%253D512&x=id%3Dodlnghcomkeenpeblhddfpacdncfjmna%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1 ...
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16454
+[Proxy Recording  (3ecc:3c80)] Trying to connect to https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.121&lang=en-US&acceptformat=crx3,puff&x=id%3Dglmfdkfmoamfkgkncklicdngnfabhaim%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1&x=id%3Dhemlmgggokggmncimchkllhcjcaimcle%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF&x=id%3Djbldcomffojmkkjbblhcebeicbncmjpf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1%2526dr%253D512&x=id%3Dodlnghcomkeenpeblhddfpacdncfjmna%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1 ...
+[Proxy Recording  (3ecc:5990)] Trying to connect to http://pets.shaft.com/webjars/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 ...
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16455
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16456
+[Proxy Recording  (3ecc: a00)] Trying to connect to http://pets.shaft.com/resources/fonts/montserrat-webfont.woff ...
+[Proxy Recording  (3ecc:5990)] Trying to connect to http://pets.shaft.com/webjars/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 ...
+[Proxy Recording  (3ecc:1d10)] Trying to connect to http://pets.shaft.com/resources/fonts/varela_round-webfont.woff ...
+[Proxy Recording  (3ecc: a00)] Trying to connect to http://pets.shaft.com/resources/fonts/montserrat-webfont.woff ...
+[Proxy Recording  (3ecc:1d10)] Trying to connect to http://pets.shaft.com/resources/fonts/varela_round-webfont.woff ...
+[Web Request      (3ecc:54e8)] "GET http://pets.shaft.com/webjars/bootstrap/5.1.3/dist/js/bootstrap.bundle.min.js"   
+[Network Analyzer (3ecc:54e8)]   (Sid:  6) Client -> Server @ : 352 bytes (Service=HTTP)
+[Proxy Recording  (3ecc:473c)] Received response of 259 header and 6888 body bytes from http://pets.shaft.com/resources/images/spring-logo-dataflow.png
+[Network Analyzer (3ecc:54e8)]   (Sid:  6) Server -> Client : 288 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc:4398)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Network Analyzer (3ecc:54e8)]   (Sid:  6) Server -> Client : 78129 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc:54e8)] Sent 78129 bytes to client @ 192.168.68.41:16444
+[Proxy Recording  (3ecc:5990)] Received response of 261 header and 77160 body bytes from http://pets.shaft.com/webjars/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0
+[Proxy Recording  (3ecc: a00)] Received response of 260 header and 24240 body bytes from http://pets.shaft.com/resources/fonts/montserrat-webfont.woff
+[Proxy Recording  (3ecc:1d10)] Received response of 260 header and 32712 body bytes from http://pets.shaft.com/resources/fonts/varela_round-webfont.woff
+[Web Request      (3ecc:4ca8)] "GET http://pets.shaft.com/resources/images/pets.png"   
+[Network Analyzer (3ecc:4ca8)]   (Sid:  7) Client -> Server @ : 383 bytes (Service=HTTP)
+[Network Analyzer (3ecc:4ca8)]   (Sid:  7) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer (3ecc:4ca8)]   (Sid:  7) Server -> Client : 67721 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc:4ca8)] Sent 67721 bytes to client @ 192.168.68.41:16445
+[Web Request      (3ecc:473c)] "GET http://pets.shaft.com/resources/images/spring-logo-dataflow.png"   
+[Network Analyzer (3ecc:473c)]   (Sid:  8) Client -> Server @ : 426 bytes (Service=HTTP)
+[Proxy Recording  (3ecc:51c0)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:wVkHFOh9XNUp5UnWj5Zcr3O6BX6VAiAVVq8JJRW2p_8&cup2hreq=7fd95d3dd955d0b567ed65d9f1dd98e95b41a3e36b657b1461a363c99a439027 ...
+[Network Analyzer (3ecc:473c)]   (Sid:  8) Server -> Client : 274 bytes  (Service=HTTP)
+[Network Analyzer (3ecc:473c)]   (Sid:  8) Server -> Client : 6888 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc:473c)] Sent 6888 bytes to client @ 192.168.68.41:16452
+[Web Request      (3ecc:5990)] "GET http://pets.shaft.com/webjars/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0"   
+[Network Analyzer (3ecc:5990)]   (Sid:  9) Client -> Server @ : 445 bytes (Service=HTTP)
+[Network Analyzer (3ecc:5990)]   (Sid:  9) Server -> Client : 276 bytes  (Service=HTTP)
+[Network Analyzer (3ecc:5990)]   (Sid:  9) Server -> Client : 77160 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc:5990)] Sent 77160 bytes to client @ 192.168.68.41:16454
+[Proxy Recording  (3ecc:4398)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Web Request      (3ecc: a00)] "GET http://pets.shaft.com/resources/fonts/montserrat-webfont.woff"   
+[Network Analyzer (3ecc: a00)]   (Sid: 10) Client -> Server @ : 394 bytes (Service=HTTP)
+[Network Analyzer (3ecc: a00)]   (Sid: 10) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer (3ecc: a00)]   (Sid: 10) Server -> Client : 24240 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc: a00)] Sent 24240 bytes to client @ 192.168.68.41:16455
+[Web Request      (3ecc:1d10)] "GET http://pets.shaft.com/resources/fonts/varela_round-webfont.woff"   
+[Network Analyzer (3ecc:1d10)]   (Sid: 11) Client -> Server @ : 396 bytes (Service=HTTP)
+[Network Analyzer (3ecc:1d10)]   (Sid: 11) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer (3ecc:1d10)]   (Sid: 11) Server -> Client : 32712 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc:1d10)] Sent 32712 bytes to client @ 192.168.68.41:16456
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16459
+[Proxy Recording  (3ecc:54e8)] Trying to connect to http://pets.shaft.com/resources/images/favicon.png ...
+[Proxy Recording  (3ecc:54e8)] Trying to connect to http://pets.shaft.com/resources/images/favicon.png ...
+[Proxy Recording  (3ecc:54e8)] Received response of 258 header and 528 body bytes from http://pets.shaft.com/resources/images/favicon.png
+[Web Request      (3ecc:54e8)] "GET http://pets.shaft.com/resources/images/favicon.png"   
+[Network Analyzer (3ecc:54e8)]   (Sid: 12) Client -> Server @ : 386 bytes (Service=HTTP)
+[Network Analyzer (3ecc:54e8)]   (Sid: 12) Server -> Client : 273 bytes  (Service=HTTP)
+[Network Analyzer (3ecc:54e8)]   (Sid: 12) Server -> Client : 528 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc:54e8)] Sent 528 bytes to client @ 192.168.68.41:16459
+[Proxy Recording  (3ecc:4398)] Received response of 2928 header and 317 body bytes from https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+[Network Analyzer (3ecc:4398)]   (Sid: 13) Client -> Server @ : 4172 bytes (SSL)(Service=HTTP)
+[Web Request      (3ecc:4398)] "POST https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (3ecc:4398)]   (Sid: 13) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3ecc:4398)]   (Sid: 13) Server -> Client : 2917 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3ecc:4398)]   (Sid: 13) Server -> Client : 317 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3ecc:4398)] Sent 317 bytes to client @ 192.168.68.41:16430
+[Proxy Recording  (3ecc:3c80)] Received response of 675 header and 362 body bytes from https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.121&lang=en-US&acceptformat=crx3,puff&x=id%3Dglmfdkfmoamfkgkncklicdngnfabhaim%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1&x=id%3Dhemlmgggokggmncimchkllhcjcaimcle%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF&x=id%3Djbldcomffojmkkjbblhcebeicbncmjpf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1%2526dr%253D512&x=id%3Dodlnghcomkeenpeblhddfpacdncfjmna%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1
+[Proxy Recording  (3ecc:51c0)] Received response of 1135 header and 424 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=14:wVkHFOh9XNUp5UnWj5Zcr3O6BX6VAiAVVq8JJRW2p_8&cup2hreq=7fd95d3dd955d0b567ed65d9f1dd98e95b41a3e36b657b1461a363c99a439027
+[Web Request      (3ecc:3c80)] "GET https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.121&lang=en-US&acceptformat=crx3,puff&x=id%3Dglmfdkfmoamfkgkncklicdngnfabhaim%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1&x=id%3Dhemlmgggokggmncimchkllhcjcaimcle%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF&x=id%3Djbldcomffojmkkjbblhcebeicbncmjpf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1%2526dr%253D512&x=id%3Dodlnghcomkeenpeblhddfpacdncfjmna%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1"   
+[Network Analyzer (3ecc:3c80)]   (Sid: 14) Client -> Server @ : 1306 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3ecc:3c80)]   (Sid: 14) Server -> Client : 664 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3ecc:3c80)]   (Sid: 14) Server -> Client : 362 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3ecc:3c80)] Sent 362 bytes to client @ 192.168.68.41:16431
+[Proxy Recording  (3ecc: c58)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc: c58)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Network Analyzer (3ecc:51c0)]   (Sid: 15) Client -> Server @ : 1016 bytes (SSL)(Service=HTTP)
+[Web Request      (3ecc:51c0)] "POST https://update.googleapis.com/service/update2/json?cup2key=14:wVkHFOh9XNUp5UnWj5Zcr3O6BX6VAiAVVq8JJRW2p_8&cup2hreq=7fd95d3dd955d0b567ed65d9f1dd98e95b41a3e36b657b1461a363c99a439027"   
+[Network Analyzer (3ecc:51c0)]   (Sid: 15) Client -> Server @ : 3774 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3ecc:51c0)]   (Sid: 15) Server -> Client : 1124 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3ecc:51c0)]   (Sid: 15) Server -> Client : 424 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3ecc:51c0)] Sent 424 bytes to client @ 192.168.68.41:16432
+[Proxy Recording  (3ecc:3388)] Received response of 305 header and 0 body bytes from https://onedriveclucproddm20050.blob.core.windows.net:443/2024-09-11/9017008775745105211-91c0d23d-22b3-e650-ad47-0eec20f15409-2024-09-11-07-48-56-9430?sv=2014-02-14&sr=b&sig=ocFCh%2BwaYWKy0Oo6rgXDedJheeLJfytlSfMlVa1hm%2B0%3D&st=2024-09-10T21%3A48%3A56Z&se=2024-09-11T08%3A48%3A56Z&sp=w
+[Proxy Recording  (3ecc: c58)] Received response of 398 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:3388)] Sent 0 bytes to client @ 192.168.68.41:16416
+[Proxy Recording  (3ecc: c58)] Sent 9 bytes to client @ 192.168.68.41:16433
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16460
+[Proxy Recording  (3ecc:57c0)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  (3ecc:57c0)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  (3ecc:57c0)] Received response of 370 header and 2685 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+[Network Analyzer (3ecc:57c0)]   (Sid: 16) Client -> Server @ : 668 bytes (SSL)(Service=HTTP)
+[Web Request      (3ecc:57c0)] "POST https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (3ecc:57c0)]   (Sid: 16) Client -> Server @ : 1148 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3ecc:57c0)]   (Sid: 16) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3ecc:57c0)]   (Sid: 16) Server -> Client : 2685 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3ecc:57c0)] Sent 2685 bytes to client @ 192.168.68.41:16440
+[Proxy Recording  (3ecc:13f4)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (3ecc:13f4)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (3ecc:13f4)] Received response of 466 header and 399 body bytes from https://www.googleapis.com:443/oauth2/v4/token
+[Proxy Recording  (3ecc: a00)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc: a00)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Network Analyzer (3ecc:13f4)]   (Sid: 17) Client -> Server @ : 458 bytes (SSL)(Service=HTTP)
+[Web Request      (3ecc:13f4)] "POST https://www.googleapis.com/oauth2/v4/token"   
+[Network Analyzer (3ecc:13f4)]   (Sid: 17) Client -> Server @ : 279 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3ecc:13f4)]   (Sid: 17) Server -> Client : 455 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3ecc:13f4)]   (Sid: 17) Server -> Client : 399 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3ecc:13f4)] Sent 399 bytes to client @ 192.168.68.41:16441
+[Proxy Recording  (3ecc: a00)] Received response of 398 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc: a00)] Sent 9 bytes to client @ 192.168.68.41:16460
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16468
+[Proxy Recording  (3ecc:1d90)] Trying to connect to https://data.iana.org:443/TLD/tlds-alpha-by-domain.txt ...
+[Proxy Recording  (3ecc:1d90)] Trying to connect to https://data.iana.org:443/TLD/tlds-alpha-by-domain.txt ...
+[Proxy Recording  (3ecc:51c0)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:51c0)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:51c0)] Received response of 397 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:51c0)] Sent 9 bytes to client @ 192.168.68.41:16468
+[Proxy Recording  (3ecc:1d90)] Received response of 463 header and 0 body bytes from https://data.iana.org:443/TLD/tlds-alpha-by-domain.txt
+[Web Request      (3ecc:1d90)] "GET https://data.iana.org/TLD/tlds-alpha-by-domain.txt"   
+[Network Analyzer (3ecc:1d90)]   (Sid: 18) Client -> Server @ : 492 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3ecc:1d90)]   (Sid: 18) Server -> Client : 490 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3ecc:1d90)] Sent 0 bytes to client @ 192.168.68.41:16429
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16471
+[Proxy Recording.Error (3ecc: c58)] Exception is caught while trying to connect to https://config.edge.skype.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (3ecc: c58)] Exception is caught while connecting to , message=Stream was not readable.
+[User action                 ] StartTransactionEvent Pets_Launch [Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16474
+[Proxy Recording  (3ecc:57c0)] Trying to connect to http://pets.shaft.com/ ...
+[Proxy Recording  (3ecc:57c0)] Trying to connect to http://pets.shaft.com/ ...
+[Proxy Recording  (3ecc:57c0)] Received response of 131 header and 2973 body bytes from http://pets.shaft.com/
+[Web Request      (3ecc:57c0)] "GET http://pets.shaft.com/"   
+[Network Analyzer (3ecc:57c0)]   (Sid: 19) Client -> Server @ : 452 bytes (Service=HTTP)
+[Network Analyzer (3ecc:57c0)]   (Sid: 19) Server -> Client : 118 bytes  (Service=HTTP)
+[Network Analyzer (3ecc:57c0)]   (Sid: 19) Server -> Client : 2973 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc:57c0)] Sent 2973 bytes to client @ 192.168.68.41:16474
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16476
+[Proxy Recording  (3ecc:13f4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:13f4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:13f4)] Received response of 397 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:13f4)] Sent 9 bytes to client @ 192.168.68.41:16476
+[User action                 ] EndTransactionEvent Pets_Launch [Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16480
+[Proxy Recording  (3ecc:1d90)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:1d90)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:1d90)] Received response of 397 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:1d90)] Sent 9 bytes to client @ 192.168.68.41:16480
+[Proxy Recording.Error (3ecc:211c)] Exception is caught while connecting to , message=Index was outside the bounds of the array.
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16484
+[Proxy Recording  (3ecc:57c0)] Trying to connect to https://onedriveclucproddm20009.blob.core.windows.net:443/2024-09-11/9017008775745105211-91c0d23d-22b3-e650-ad47-0eec20f15409-2024-09-11-07-49-37-9821?sv=2014-02-14&sr=b&sig=KfTBwgTA3AcBhDsUhK0ZcbcwiOJeHOFMgksUTqV5fNY%3D&st=2024-09-10T21%3A49%3A37Z&se=2024-09-11T08%3A49%3A37Z&sp=w ...
+[User action                 ] StartTransactionEvent Pets_FindOwner [Proxy Recording  (3ecc:57c0)] Trying to connect to https://onedriveclucproddm20009.blob.core.windows.net:443/2024-09-11/9017008775745105211-91c0d23d-22b3-e650-ad47-0eec20f15409-2024-09-11-07-49-37-9821?sv=2014-02-14&sr=b&sig=KfTBwgTA3AcBhDsUhK0ZcbcwiOJeHOFMgksUTqV5fNY%3D&st=2024-09-10T21%3A49%3A37Z&se=2024-09-11T08%3A49%3A37Z&sp=w ...
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16488
+[Proxy Recording  (3ecc:13f4)] Trying to connect to http://pets.shaft.com/owners/find ...
+[Proxy Recording  (3ecc:13f4)] Trying to connect to http://pets.shaft.com/owners/find ...
+[Proxy Recording  (3ecc:57c0)] Received response of 305 header and 0 body bytes from https://onedriveclucproddm20009.blob.core.windows.net:443/2024-09-11/9017008775745105211-91c0d23d-22b3-e650-ad47-0eec20f15409-2024-09-11-07-49-37-9821?sv=2014-02-14&sr=b&sig=KfTBwgTA3AcBhDsUhK0ZcbcwiOJeHOFMgksUTqV5fNY%3D&st=2024-09-10T21%3A49%3A37Z&se=2024-09-11T08%3A49%3A37Z&sp=w
+[Proxy Recording  (3ecc:13f4)] Received response of 131 header and 3539 body bytes from http://pets.shaft.com/owners/find
+[Proxy Recording  (3ecc:57c0)] Sent 0 bytes to client @ 192.168.68.41:16484
+[Web Request      (3ecc:13f4)] "GET http://pets.shaft.com/owners/find"   
+[Network Analyzer (3ecc:13f4)]   (Sid: 20) Client -> Server @ : 470 bytes (Service=HTTP)
+[Network Analyzer (3ecc:13f4)]   (Sid: 20) Server -> Client : 118 bytes  (Service=HTTP)
+[Network Analyzer (3ecc:13f4)]   (Sid: 20) Server -> Client : 3539 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc:13f4)] Sent 3539 bytes to client @ 192.168.68.41:16488
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16490
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16491
+[Proxy Recording  (3ecc:54e8)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESGQmZm7YW2A-3bxIFDU-eJ_ghu6ECwUhUlhA=?alt=proto ...
+[Proxy Recording  (3ecc:54e8)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESGQmZm7YW2A-3bxIFDU-eJ_ghu6ECwUhUlhA=?alt=proto ...
+[Proxy Recording  (3ecc:54e8)] Received response of 416 header and 36 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESGQmZm7YW2A-3bxIFDU-eJ_ghu6ECwUhUlhA=?alt=proto
+[Web Request      (3ecc:54e8)] "GET https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESGQmZm7YW2A-3bxIFDU-eJ_ghu6ECwUhUlhA=?alt=proto"   
+[Network Analyzer (3ecc:54e8)]   (Sid: 21) Client -> Server @ : 576 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3ecc:54e8)]   (Sid: 21) Server -> Client : 433 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3ecc:54e8)]   (Sid: 21) Server -> Client : 36 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3ecc:54e8)] Sent 36 bytes to client @ 192.168.68.41:16490
+[Proxy Recording  (3ecc:4398)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:4398)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:4398)] Received response of 397 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:4398)] Sent 9 bytes to client @ 192.168.68.41:16491
+[User action                 ] EndTransactionEvent Pets_FindOwner [Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16498
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16500
+[Proxy Recording  (3ecc:1d90)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3ecc:1d90)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3ecc:5990)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:5990)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16502
+[Proxy Recording  (3ecc:1d90)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Proxy Recording  (3ecc:5990)] Received response of 397 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:3c80)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:98ANV2ByjNf9CNErsYgXNqy5poETgodDmJYVT1icni8&cup2hreq=33644fd712063ff08f31cc2f9bdabb0bd4c304fa874ebe1873097c93cef84fdc ...
+[Proxy Recording  (3ecc:3c80)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:98ANV2ByjNf9CNErsYgXNqy5poETgodDmJYVT1icni8&cup2hreq=33644fd712063ff08f31cc2f9bdabb0bd4c304fa874ebe1873097c93cef84fdc ...
+[Network Analyzer (3ecc:1d90)]   (Sid: 22) Client -> Server @ : 595 bytes (SSL)(Service=HTTP)
+[Web Request      (3ecc:1d90)] "POST https://clientservices.googleapis.com/uma/v2"   
+[Network Analyzer (3ecc:1d90)]   (Sid: 22) Client -> Server @ : 2768 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3ecc:1d90)]   (Sid: 22) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3ecc:1d90)]   (Sid: 22) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3ecc:1d90)] Sent 22 bytes to client @ 192.168.68.41:16500
+[Proxy Recording  (3ecc:5990)] Sent 9 bytes to client @ 192.168.68.41:16498
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16504
+[Proxy Recording  (3ecc:3c80)] Received response of 1131 header and 964 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=14:98ANV2ByjNf9CNErsYgXNqy5poETgodDmJYVT1icni8&cup2hreq=33644fd712063ff08f31cc2f9bdabb0bd4c304fa874ebe1873097c93cef84fdc
+[Web Request      (3ecc:3c80)] "POST https://update.googleapis.com/service/update2/json?cup2key=14:98ANV2ByjNf9CNErsYgXNqy5poETgodDmJYVT1icni8&cup2hreq=33644fd712063ff08f31cc2f9bdabb0bd4c304fa874ebe1873097c93cef84fdc"
+[Network Analyzer (3ecc:3c80)]   (Sid: 23) Client -> Server @ : 1373 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3ecc:3c80)]   (Sid: 23) Client -> Server @ : 8865 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3ecc:3c80)]   (Sid: 23) Server -> Client : 1120 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3ecc:3c80)]   (Sid: 23) Server -> Client : 964 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3ecc:3c80)] Sent 964 bytes to client @ 192.168.68.41:16502
+[Proxy Recording  (3ecc:4398)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:4398)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:4398)] Received response of 397 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:4398)] Sent 9 bytes to client @ 192.168.68.41:16504
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16506
+[Proxy Recording  (3ecc:1d10)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3ecc:1d10)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3ecc:1d10)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (3ecc:1d10)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (3ecc:1d10)]   (Sid: 24) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3ecc:1d10)]   (Sid: 24) Client -> Server @ : 44996 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3ecc:1d10)]   (Sid: 24) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3ecc:1d10)]   (Sid: 24) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3ecc:1d10)] Sent 22 bytes to client @ 192.168.68.41:16506
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16509
+[Proxy Recording  (3ecc:57c0)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3ecc:57c0)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3ecc:57c0)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (3ecc:57c0)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (3ecc:57c0)]   (Sid: 25) Client -> Server @ : 603 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3ecc:57c0)]   (Sid: 25) Client -> Server @ : 9102 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3ecc:57c0)]   (Sid: 25) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3ecc:57c0)]   (Sid: 25) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3ecc:57c0)] Sent 22 bytes to client @ 192.168.68.41:16509
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16512
+[Proxy Recording.Error (3ecc:211c)] Exception is caught while connecting to , message=The output char buffer is too small to contain the decoded characters, encoding 'Unicode (UTF-8)' fallback 'System.Text.DecoderReplacementFallback'.
+Parameter name: chars
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16513
+[Proxy Recording  (3ecc:54e8)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3ecc:54e8)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (3ecc:54e8)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (3ecc:54e8)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (3ecc:54e8)]   (Sid: 26) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3ecc:54e8)]   (Sid: 26) Client -> Server @ : 23413 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3ecc:54e8)]   (Sid: 26) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3ecc:54e8)]   (Sid: 26) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3ecc:54e8)] Sent 22 bytes to client @ 192.168.68.41:16513
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16515
+[User action                 ] StartTransactionEvent Pets_SearchWithLastName [Proxy Recording  (3ecc:5990)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:5990)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:5990)] Received response of 398 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:5990)] Sent 9 bytes to client @ 192.168.68.41:16515
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16519
+[Proxy Recording  (3ecc:57c0)] Trying to connect to http://pets.shaft.com/owners?lastName=arjun8181 ...
+[Proxy Recording  (3ecc:57c0)] Trying to connect to http://pets.shaft.com/owners?lastName=arjun8181 ...
+[Proxy Recording  (3ecc:57c0)] Received response of 109 header and 0 body bytes from http://pets.shaft.com/owners?lastName=arjun8181
+[Web Request      (3ecc:57c0)] "GET http://pets.shaft.com/owners?lastName=arjun8181"   
+[Network Analyzer (3ecc:57c0)]   (Sid: 27) Client -> Server @ : 495 bytes (Service=HTTP)
+[Network Analyzer (3ecc:57c0)]   (Sid: 27) Server -> Client : 124 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc:57c0)] Sent 0 bytes to client @ 192.168.68.41:16519
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16521
+[Proxy Recording  (3ecc:1d90)] Trying to connect to http://pets.shaft.com/owners/475603 ...
+[Proxy Recording  (3ecc:1d90)] Trying to connect to http://pets.shaft.com/owners/475603 ...
+[Proxy Recording  (3ecc:1d90)] Received response of 131 header and 3511 body bytes from http://pets.shaft.com/owners/475603
+[Web Request      (3ecc:1d90)] "GET http://pets.shaft.com/owners/475603"   
+[Network Analyzer (3ecc:1d90)]   (Sid: 28) Client -> Server @ : 483 bytes (Service=HTTP)
+[Network Analyzer (3ecc:1d90)]   (Sid: 28) Server -> Client : 118 bytes  (Service=HTTP)
+[Network Analyzer (3ecc:1d90)]   (Sid: 28) Server -> Client : 3511 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc:1d90)] Sent 3511 bytes to client @ 192.168.68.41:16521
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16523
+[Proxy Recording  (3ecc:13f4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:13f4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:13f4)] Received response of 397 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:13f4)] Sent 9 bytes to client @ 192.168.68.41:16523
+[User action                 ] EndTransactionEvent Pets_SearchWithLastName [Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16529
+[Proxy Recording  (3ecc:4398)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:4398)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:4398)] Received response of 398 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:4398)] Sent 9 bytes to client @ 192.168.68.41:16529
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16532
+[Proxy Recording  (3ecc:54e8)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:54e8)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:54e8)] Received response of 397 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:54e8)] Sent 9 bytes to client @ 192.168.68.41:16532
+[User action                 ] StartTransactionEvent Pets_AddNewPet [Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16535
+[Proxy Recording  (3ecc:3c80)] Trying to connect to http://pets.shaft.com/owners/475603/pets/new ...
+[Proxy Recording  (3ecc:3c80)] Trying to connect to http://pets.shaft.com/owners/475603/pets/new ...
+[Proxy Recording  (3ecc:3c80)] Received response of 131 header and 4857 body bytes from http://pets.shaft.com/owners/475603/pets/new
+[Web Request      (3ecc:3c80)] "GET http://pets.shaft.com/owners/475603/pets/new"   
+[Network Analyzer (3ecc:3c80)]   (Sid: 29) Client -> Server @ : 494 bytes (Service=HTTP)
+[Network Analyzer (3ecc:3c80)]   (Sid: 29) Server -> Client : 118 bytes  (Service=HTTP)
+[Network Analyzer (3ecc:3c80)]   (Sid: 29) Server -> Client : 4857 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc:3c80)] Sent 4857 bytes to client @ 192.168.68.41:16535
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:16537
+[Proxy Recording  (3ecc:57c0)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESIAkkXcrBIl9RwRIFDZRU-s8SBQ0dQTWlIVeGrUOPtMc7?alt=proto ...
+[Proxy Recording  (3ecc:57c0)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESIAkkXcrBIl9RwRIFDZRU-s8SBQ0dQTWlIVeGrUOPtMc7?alt=proto ...
+[Proxy Recording  (3ecc:57c0)] Received response of 416 header and 45 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESIAkkXcrBIl9RwRIFDZRU-s8SBQ0dQTWlIVeGrUOPtMc7?alt=proto
+[Web Request      (3ecc:57c0)] "GET https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESIAkkXcrBIl9RwRIFDZRU-s8SBQ0dQTWlIVeGrUOPtMc7?alt=proto"   
+[Network Analyzer (3ecc:57c0)]   (Sid: 30) Client -> Server @ : 560 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3ecc:57c0)]   (Sid: 30) Server -> Client : 433 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3ecc:57c0)]   (Sid: 30) Server -> Client : 45 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3ecc:57c0)] Sent 45 bytes to client @ 192.168.68.41:16537
+[User action                 ] EndTransactionEvent Pets_AddNewPet [Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:12895
+[Proxy Recording  (3ecc:1d10)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:1d10)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:1d10)] Received response of 397 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:1d10)] Sent 9 bytes to client @ 192.168.68.41:12895
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:12900
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:12901
+[Proxy Recording.Error (3ecc:5990)] Exception is caught while connecting to , message=The output char buffer is too small to contain the decoded characters, encoding 'Unicode (UTF-8)' fallback 'System.Text.DecoderReplacementFallback'.
+Parameter name: chars
+[Proxy Recording  (3ecc:13f4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:13f4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:13f4)] Received response of 397 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:13f4)] Sent 9 bytes to client @ 192.168.68.41:12900
+[User action                 ] StartTransactionEvent Pets_GivePetDetails [Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:12905
+[Proxy Recording  (3ecc:3c80)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:3c80)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:3c80)] Received response of 397 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:3c80)] Sent 9 bytes to client @ 192.168.68.41:12905
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:12908
+[Proxy Recording  (3ecc:211c)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:211c)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:211c)] Received response of 397 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:211c)] Sent 9 bytes to client @ 192.168.68.41:12908
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:12912
+[Proxy Recording  (3ecc:4398)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:4398)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:4398)] Received response of 398 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:4398)] Sent 9 bytes to client @ 192.168.68.41:12912
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:12917
+[Proxy Recording  (3ecc:3c80)] Trying to connect to http://pets.shaft.com/owners/475603/pets/new ...
+[Proxy Recording  (3ecc:3c80)] Trying to connect to http://pets.shaft.com/owners/475603/pets/new ...
+[Proxy Recording  (3ecc:3c80)] Received response of 109 header and 0 body bytes from http://pets.shaft.com/owners/475603/pets/new
+[Network Analyzer (3ecc:3c80)]   (Sid: 31) Client -> Server @ : 630 bytes (Service=HTTP)
+[Web Request      (3ecc:3c80)] "POST http://pets.shaft.com/owners/475603/pets/new"   
+[Network Analyzer (3ecc:3c80)]   (Sid: 31) Client -> Server @ : 47 bytes (Service=HTTP)
+[Network Analyzer (3ecc:3c80)]   (Sid: 31) Server -> Client : 124 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc:3c80)] Sent 0 bytes to client @ 192.168.68.41:12917
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:12919
+[Proxy Recording  (3ecc:5990)] Trying to connect to http://pets.shaft.com/owners/475603 ...
+[Proxy Recording  (3ecc:5990)] Trying to connect to http://pets.shaft.com/owners/475603 ...
+[Proxy Recording  (3ecc:5990)] Received response of 131 header and 4338 body bytes from http://pets.shaft.com/owners/475603
+[Web Request      (3ecc:5990)] "GET http://pets.shaft.com/owners/475603"   
+[Network Analyzer (3ecc:5990)]   (Sid: 32) Client -> Server @ : 520 bytes (Service=HTTP)
+[Network Analyzer (3ecc:5990)]   (Sid: 32) Server -> Client : 118 bytes  (Service=HTTP)
+[Network Analyzer (3ecc:5990)]   (Sid: 32) Server -> Client : 4338 bytes  (Service=HTTP)
+[Proxy Recording  (3ecc:5990)] Sent 4338 bytes to client @ 192.168.68.41:12919
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:12920
+[Proxy Recording  (3ecc:4398)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:4398)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:4398)] Received response of 397 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:4398)] Sent 9 bytes to client @ 192.168.68.41:12920
+[User action                 ] EndTransactionEvent Pets_GivePetDetails [Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:12924
+[Proxy Recording  (3ecc:3c80)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:3c80)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:3c80)] Received response of 398 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:3c80)] Sent 9 bytes to client @ 192.168.68.41:12924
+[Proxy Recording  (3ecc:4f6c)] Client request from @ 192.168.68.41:12927
+[Proxy Recording  (3ecc:5990)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:5990)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (3ecc:5990)] Received response of 397 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (3ecc:5990)] Sent 9 bytes to client @ 192.168.68.41:12927
